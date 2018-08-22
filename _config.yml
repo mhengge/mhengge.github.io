@@ -1,0 +1,136 @@
+# Welcome to Jekyll!
+
+
+# In addition to these settings, there is a file _data/tokens-template.yml
+# that you'll want to customize for your site. It's named 'tokens' because
+# that was it's original purpose, but because tokens.yml is .gitexcluded, it's
+# a good place to store your site-specific data that you'd rather not have
+# forked or cloned. Of course, that means you'd want to back it up elsewhere.
+
+# Also, for your post bylines, add author info for yourself in `_data/authors.yml`.
+# (Using that method instead of site.owner, in case your posts get cloned with your repo.)
+
+# Site settings
+title: Martina Hengge
+description: PhD Candidate in Economics, Graduate Institute Geneva &#x1f784
+owner:
+  name: Martina Hengge # or company name
+  email: martina.hengge@graduateinstitute.com
+  url: https://enricomund.github.io/martinahengge.github.io
+first_published: 2017 # if migrating another site, the year of your first publish
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://enricomund.github.io/martinahengge.github.io" # the base hostname & protocol for your site
+
+# on landing page
+# - set the greeting only if you want to display the first green section
+greeting:
+  title: Hello!
+# - title for your blog's featured posts
+features-title: Featured
+# - displayed at the bottom
+closing-head: Thanks for visiting
+closing-para: Feel free to contact me with any questions, concerns, or just to say hello.
+blog_logo:
+# on all pages (and the first three you list display with greeting, if included)
+social:
+  email: mailto:martina.hengge[at]graduateinstitute.com
+  github: https://github.com/mhengge
+  deviantart:
+  dribbble:
+  linkedin-square: https://www.linkedin.com/in/martina-hengge-617a1066/
+  twitter:
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+# if you use this repo's `ruby compose.rb` script to initiate new posts, put the
+# command to invoke your editor here.
+compose:
+  editor: atom
+  extension: md
+
+# choose where to put back and next links:
+# top, bottom, both, none
+navlinks: bottom
+
+# expecting more works? mark your list as in-progress
+works_in_progress: yes
+
+# If you have custom extensions, specifically includes/_my/custom.scss,
+# set this to yes
+custom_extensions: no
+
+# Contact page action
+mailaction: https://formspree.io/martina.hengge@graduateinstitute.com
+
+# Build settings
+permalink: /:categories/:title.html
+# permalink: /:title.html
+markdown: kramdown
+highlighter: rouge
+sass:
+ style: compressed
+exclude: ['stuff.html','site.bat','compose.rb','README.md','Gulpfile.js','package.json','node_modules', 'jspm_packages','_pages_under_construction']
+include: ['_pages','.htaccess']
+defaults:
+  - scope:
+      path: _pages
+    values:
+      layout: page
+  - scope:
+      path: _posts
+    values:
+      layout: post
+  - scope:
+      path: _drafts
+    values:
+      layout: post
+
+html_proofer:
+  check_favicon: true
+  check_html: true
+  file_ignore:
+    - /a.*regexp*/
+    - a_string
+    - bower_components/*
+    - fonts/*
+    - _posts/*
+    - blog/*
+  url_ignore:
+    - /Hyde/
+    - /PlayMusic/
+    - /Atomic-Design-UI/
+    - /GithubCalendar/
+
+# to initialize arrays in assignments (assign myarr = site.empty_array)
+# (easier to grok than assign myarr = '' | split',')
+empty_array: []

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<section style = "{% if page.options contains 'center' %} margin:0 auto;text-align:center; {% endif %} {% if page.options contains 'transparent' %} background-color: transparent;{% endif %}" 
+
+		class="wrapper {% if page.options contains 'minihead' %} minihead {% endif %} style5">
+  <div class="inner {% if page.options contains 'fullwidth' %} fullwidth {% endif %}">
+      {{ content }}
+  </div>
+</section>

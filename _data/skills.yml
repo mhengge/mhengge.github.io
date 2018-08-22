@@ -1,0 +1,19 @@
+# skills section data
+
+name: MatLab
+xp: 9
+color: #95cde0
+
+name: STATA
+xp: 6
+color: #95cde0
+
+name: R
+xp: 9
+color: #95cde0
+
+
+label: Ability
+id: cs
+aspects: MAtlab, Stata, R
+percentage: 9, 6, 9, 4, 6, 7, 5
