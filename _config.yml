@@ -16,10 +16,10 @@ description: PhD Candidate in Economics, Graduate Institute Geneva &#x1f784
 owner:
   name: Martina Hengge # or company name
   email: martina.hengge@graduateinstitute.com
-  url: https://enricomund.github.io/martinahengge.github.io
+  url: https://mhengge.github.io
 first_published: 2017 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://enricomund.github.io/martinahengge.github.io" # the base hostname & protocol for your site
+url: "https://mhengge.github.io" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
