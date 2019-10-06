@@ -15,7 +15,7 @@ title: Martina Hengge
 # description: PhD Candidate in Economics, Graduate Institute Geneva &#x1f784
 owner:
   name: Martina Hengge # or company name
-  email: martina.hengge@graduateinstitute.ch
+  email: martina.hengge@imf.org
   url: https://mhengge.github.io
 first_published: 2017 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,7 +33,7 @@ closing-para: Feel free to contact me with any questions, concerns, or just to s
 blog_logo:
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  email: mailto:martina.hengge[at]graduateinstitute.ch
+  email: mailto:mhengge[at]imf.org
   github: https://github.com/mhengge
   deviantart:
   dribbble:
